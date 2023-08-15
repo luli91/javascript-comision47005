@@ -151,23 +151,25 @@ estructura de un objeto
 // console.log(producto1);
 // console.log(producto2);
 
-class Producto {
-    constructor(nombre, precio, imagen, cantidad) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.imagen = imagen;
-        this.cantidad = cantidad;
-    }
-    vender() {
-      this.cantidad -= 1; // this.cantidad = this.cantidad - 1
-    }
-    }
-    const producto1 = new Producto(
-    "Monitor gamer curvo Samsung C27R500FHL",
-    867212,
-    "http://1234df",
-    5
-    );
-    console.log(producto1);
-    producto1.vender();
-    console.log(producto1);
+// class Producto {
+//     constructor(nombre, precio, imagen, cantidad) {
+//         this.nombre = nombre;
+//         this.precio = precio;
+//         this.imagen = imagen;
+//         this.cantidad = cantidad;
+//     }
+//     vender() {
+//       this.cantidad -= 1; // this.cantidad = this.cantidad - 1
+//     }
+//     }
+//     const producto1 = new Producto(
+//     "Monitor gamer curvo Samsung C27R500FHL",
+//     867212,
+//     "http://1234df",
+//     5
+//     );
+//     console.log(producto1);
+//     producto1.vender();
+//     console.log(producto1);
+
+

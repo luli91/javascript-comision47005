@@ -162,6 +162,8 @@ switch(valor){
 // }
 
 
+//ACTIVIDAD 1 realizada en clase
+
 const intentosMaximos = 3;
 let intentos = 0;
 let codigoIngresado = '';
